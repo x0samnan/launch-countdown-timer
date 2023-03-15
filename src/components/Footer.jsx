@@ -6,12 +6,8 @@ export const Footer = () => {
       <footer>
         <div className="attribution">
           <p>
-            Challenge by{' '}
-            <a href="https://www.frontendmentor.io">Frontend Mentor</a>. Coded
-            by{' '}
-            <a href="https://github.com/faha1999/" title="faha1999">
-              faha1999
-            </a>
+            Under Development by{' '}
+            <a href="https://www.x0samnan.live/">Samnan Siddique</a>. 
           </p>
         </div>
       </footer>

@@ -4,7 +4,7 @@ import { Count } from './partials/Count';
 export const CountDown = () => {
   const initTimeLeft = () => {
     const year = new Date().getFullYear(),
-      countTime = +new Date(`12/31/${year}`) - +new Date();
+      countTime = +new Date(`05/01/${year}`) - +new Date();
     return {
       days: Math.floor(countTime / (2000 * 60 * 60 * 24)),
       hours: Math.floor((countTime / (1000 * 60 * 60)) % 24),
